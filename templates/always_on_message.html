@@ -1,0 +1,36 @@
+<html>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <style>
+        body
+        {
+        	height: 100%;
+        	width: 100%;
+        	background-color: black;
+        }
+
+        img
+        {
+    		display: block;
+        	width: 100%;
+            height: 100%;
+        }
+        p
+        {
+            font-size:100%;
+            color:white;
+        }
+        h2
+        {
+            color:white;
+        }
+        small
+        {
+            color:white;
+        }
+    </style>
+    <body>
+        <h2>{{messageData["name"]}}</h2>
+        <p><i>{{messageData["datetime"]}}</i></p>
+        <p>{{messageData["message"]}}<p>
+    </body>
+</html>
